@@ -66,9 +66,9 @@ Essa rota deve retornar um objeto com o formato a seguir:
 
 
 **Dica 1:** Dentro de **```balance```**, o **```income```** é a soma de todos os valores das transações com **```type income```**.   
-O **```outcome```** é a soma de todos os valores das transações com **```type outcome, e o total é o valor de **```income - outcome.
+O **```outcome```** é a soma de todos os valores das transações com **```type outcome, e o total é o valor de **```income - outcome```**.
 
-**Dica 2:** Para fazer a soma dos valores, você pode usar a função reduce para agrupar as transações pela propriedade **```type,   
+**Dica 2:** Para fazer a soma dos valores, você pode usar a função reduce para agrupar as transações pela propriedade **```type```**,   
 assim você irá conseguir somar todos os valores com facilidade e obter o retorno do balance.
 
 --------------------------------------------------
